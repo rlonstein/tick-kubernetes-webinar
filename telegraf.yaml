@@ -1,0 +1,12 @@
+single:
+  config:
+    outputs:
+      influxdb:
+        urls:
+        - "http://influxdb-influxdb.tick:8086"
+daemonset:
+  config:
+    outputs:
+      influxdb:
+        urls:
+        - "http://influxdb-influxdb.tick:8086"
